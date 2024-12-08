@@ -82,7 +82,19 @@ global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
 global.fgyt = 'https://youtube.com/@GlobalTechInfo'
 global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
 global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
-global.thumb = fs.readFileSync('./assets/qasim.jpg')
+global.thumb = fs.readFileSync('./assets/qasim.jpg'),
+}
+
+// false=disable and true=enable
+global.welcome = false //auto welcome
+global.autoRecording = true //auto recording
+global.autoTyping = false //auto typing
+global.autorecordtype = false //auto typing + recording
+global.autoread = false //auto read messages
+global.autobio = true //auto update bio
+global.anti212 = true //auto block +212
+global.autoread_status = true //auto view status/story
+}
 
 global.wait = '⏳'
 global.rwait = '⏳'
